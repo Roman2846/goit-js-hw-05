@@ -1,6 +1,6 @@
-function sortByDescendingFriendCount(users) {
+const sortByDescendingFriendCount = users => {
   return users.toSorted((a, b) => a.friends.length - b.friends.length);
-}
+};
 
 console.log(
   sortByDescendingFriendCount([
